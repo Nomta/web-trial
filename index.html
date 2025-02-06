@@ -7,160 +7,143 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="macbook-air">
-      <div class="div">
-        <div class="navbar">
-          <div class="frame">
-            <div class="text-wrapper">Главная</div>
-          </div>
-          <div class="text-wrapper-2">Обо мне</div>
-          <div class="text-wrapper-2">Портфолио</div>
-          <div class="text-wrapper-2">Информация</div>
-          <div class="text-wrapper-2">Контакты</div>
-        </div>
+    <div class="container">
+
+      <header class="header">
+        <nav class="navbar">
+          <ul>
+            <li>Главная</li>
+            <li>Обо мне</li>
+            <li>Портфолио</li>
+            <li>Информация</li>
+            <li>Контакты</li>
+          </ul>
+        </nav>
+      </header>
+  
+      <main class="main" id="home">
         <h1 class="h-1">Веб-программист</h1>
-        <div class="frame-2">
-          <p class="p">Привет, меня зовут Диана, я создаю сайты в онлайн школе <a href="http://www.progkids.com" style="color: #e88ed9;">ProgKids</a></p>
-          <img class="rectangle" alt="Rectangle" src="img/photo.png" />
-          <div class="frame-3">
-            <div class="div-wrapper">
-              <div class="text-wrapper-3">интернет-магазины</div>
-            </div>
-            <div class="frame-4">
-              <div class="div-wrapper">
-                <div class="text-wrapper-3">сайты</div>
-              </div>
-              <div class="div-wrapper">
-                <div class="text-wrapper-3">дизайн</div>
-              </div>
-            </div>
-            <div class="frame-4">
-              <div class="div-wrapper">
-                <div class="text-wrapper-3">эмоции</div>
-              </div>
-              <div class="div-wrapper">
-                <div class="text-wrapper-3">лендинги</div>
-              </div>
-            </div>
+        <section class="home">
+          <p class="intro">
+            Привет, меня зовут Диана, я создаю сайты в онлайн школе 
+            <a href="http://www.progkids.com" style="color: #e88ed9;">ProgKids</a>
+          </p>
+          <img src="img/photo.png" alt="Фото" class="photo">
+  
+          <div class="services">
+            <span>интернет-магазины</span>
+            <span>сайты</span>
+            <span>дизайн</span>
+            <span>эмоции</span>
+            <span>лендинги</span>
           </div>
-        </div>
-        <div class="frame-5">
-          <img class="line" alt="Line" src="img/line-5.svg" />
-          <img class="img" alt="Line" src="img/line-5.svg" />
-        </div>
-        <div class="frame-6">
-          <img class="line" alt="Line" src="img/line-5.svg" />
-          <img class="img" alt="Line" src="img/line-5.svg" />
-        </div>
-        <div class="frame-7">
-          <img class="line" alt="Line" src="img/line-5.svg" />
-          <img class="img" alt="Line" src="img/line-5.svg" />
-        </div>
-        <div class="frame-8">
-          <img class="line" alt="Line" src="img/line-5.svg" />
-          <img class="img" alt="Line" src="img/line-5.svg" />
-        </div>
-        <div class="frame-9">
-          <div class="text-wrapper-4">Обо мне</div>
-          <img class="line-2" alt="Line" src="img/line-9.svg" />
-        </div>
-        <div class="frame-10">
-          <div class="text-wrapper-4">Информация</div>
-          <img class="line-2" alt="Line" src="img/line-7-1.svg" />
-        </div>
-        <div class="frame-11">
-          <div class="text-wrapper-4">Контакты</div>
-          <img class="line-2" alt="Line" src="img/line-7-1.svg" />
-        </div>
-        <div class="frame-12">
-          <div class="frame-13">
-            <div class="text-wrapper-4">Портфолио</div>
-            <img class="line-2" alt="Line" src="img/line-9.svg" />
+        </section>
+  
+        <section class="decoration" aria-hidden="true">
+          <img src="img/line-5.svg" alt="Линия" class="line line-1">
+          <img src="img/line-5.svg" alt="Линия" class="line line-2">
+          <img src="img/line-5.svg" alt="Линия" class="line line-3">
+          <img src="img/line-5.svg" alt="Линия" class="line line-4">
+        </section>
+  
+        <section id="about">
+          <h2 class="h-2">Обо мне</h2>
+          <div class="decor-lines">
+            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-1">
+            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-2">
           </div>
-          <div class="frame-14">
-            <div class="frame-15">
-              <img class="image" alt="Image" src="img/project2.png" />
-              <div class="frame-16">
-                <div class="frame-17">
-                  <div class="text-wrapper-5">Edumem</div>
-                </div>
-                <div class="frame-18">
-                  <div class="text-wrapper-6">Смотреть</div>
-                </div>
-              </div>
+          <div class="overlap-group">
+            <div class="about-content">
+              <p class="about-p">Мне 16 лет, живу в Москве</p>
+              <p class="about-p">Учусь в 10 классе, больше всего в школе обожаю Информатику</p>
+              <p class="about-p">Я увлекаюсь графическим дизайном</p>
+              <p class="about-p">
+                В свободное время мне нравится играть в Genshin Impact, а также гулять в парке и читать книги
+              </p>
             </div>
-            <div class="text-wrapper-6">Лендинг для онлайн-школы Edumem</div>
+            <img class="vector-1" alt="Vector" src="img/vector-1.svg" />
+            <img class="vector-2" alt="Vector" src="img/vector-2.svg" />
+            <img class="vector-3" alt="Vector" src="img/vector-3.svg" />
+            <img class="vector-4" alt="Vector" src="img/vector.svg" />
           </div>
-          <img class="line-2" alt="Line" src="img/line-9.svg" />
-          <div class="frame-19">
-            <div class="frame-15">
-              <img class="image" alt="Image" src="img/project1.png" />
-              <div class="frame-16">
-                <div class="frame-17">
-                  <div class="text-wrapper-5">Сайт-визитка</div>
-                </div>
-                <div class="frame-18">
-                  <div class="text-wrapper-6">Смотреть</div>
-                </div>
-              </div>
+        </section>
+  
+        <section id="portfolio" class="portfolio">
+          <h2 class="h-2">Портфолио</h2>
+          <div class="decor-lines">
+            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-1">
+            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-2">
+          </div>
+          <article class="project">
+            <img src="img/project2.png" alt="Проект Edumem" class="project-image">
+            <div class="project-info">
+              <h3 class="project-h">Edumem</h3>
+              <p class="project-p project-p-1">Лендинг для онлайн-школы Edumem</p>
+              <a href="#view" class="project-link view-link">Смотреть</a>
             </div>
-            <div class="text-wrapper-6">Лендинг для клинического психолога</div>
+          </article>
+          <div class="decor-lines">
+            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-1">
+            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-2">
           </div>
-          <img class="line-2" alt="Line" src="img/line-9.svg" />
-          <div class="frame-19">
-            <div class="frame-15">
-              <img class="image" alt="Image" src="img/project3.png" />
-              <div class="frame-16">
-                <div class="frame-17">
-                  <div class="text-wrapper-5">Divine</div>
-                </div>
-                <div class="frame-18">
-                  <div class="text-wrapper-6">Смотреть</div>
-                </div>
-              </div>
+          <article class="project">
+            <img src="img/project1.png" alt="Проект Edumem" class="project-image">
+            <div class="project-info">
+              <h3 class="project-h">Сайт-визитка</h3>
+              <p class="project-p">Лендинг для клинического психолога</p>
+              <a href="#view" class="project-link view-link">Смотреть</a>
             </div>
-            <div class="text-wrapper-6">Магазин одежды для девушек</div>
+          </article>
+          <div class="decor-lines">
+            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-1">
+            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-2">
           </div>
-        </div>
-        <div class="frame-20">
-          <div class="p-wrapper">
-            <p class="text-wrapper-7">Создаю сайты на различных конструкторах: Tilda, Webflow, ReadyMag</p>
+          <article class="project">
+            <img src="img/project3.png" alt="Проект Edumem" class="project-image">
+            <div class="project-info">
+              <h3 class="project-h">Divine</h3>
+              <p class="project-p">Магазин одежды для девушек</p>
+              <a href="#view" class="project-link view-link">Смотреть</a>
+            </div>
+          </article>
+        </section>
+  
+        <section id="info">
+          <h2 class="h-2">Информация</h2>
+          <div class="decor-lines">
+            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-1">
+            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-2">
           </div>
-          <div class="p-wrapper">
-            <p class="text-wrapper-7">
+          <div class="info-content">
+            <div class="info-p">
+              Создаю сайты на различных конструкторах: Tilda, Webflow, ReadyMag
+            </div>
+            <div class="info-p">
               В ближайшем будущем хочу начать учить Swift для создания мобильных приложений
-            </p>
+            </div>
+            <div class="info-p">
+              Также могу создавать сайты на HTML, CSS, React
+            </div>
+        </section>
+  
+        <section id="contact">
+          <h2 class="h-2">Контакты</h2>
+          <div class="decor-lines">
+            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-1">
+            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-2">
           </div>
-        </div>
-        <div class="frame-21">
-          <p class="text-wrapper-8">Также могу создавать сайты на HTML, CSS, React</p>
-        </div>
-        <div class="frame-22">
-          <div class="frame-23">
-            <div class="text-wrapper-9">Tелефон</div>
-            <div class="text-wrapper-10">12345678</div>
-          </div>
-          <div class="frame-23">
-            <div class="text-wrapper-9">Email</div>
-            <div class="text-wrapper-10">mysuperemail@mail.ru</div>
-          </div>
-        </div>
-        <div class="overlap-group">
-          <div class="frame-24">
-            <p class="text-wrapper-11">Мне 16 лет, живу в Москве</p>
-            <p class="text-wrapper-12">Учусь в 10 классе, больше всего в школе обожаю Информатику</p>
-            <div class="text-wrapper-12">Я увлекаюсь графическим дизайном</div>
-            <p class="genshin-impact">
-              В свободное время мне нравится играть в Genshin Impact, а также гулять в парке и читать книги
-            </p>
-          </div>
-          <img class="vector" alt="Vector" src="img/vector-3.svg" />
-          <img class="vector-2" alt="Vector" src="img/vector-2.svg" />
-          <img class="vector-3" alt="Vector" src="img/vector-1.svg" />
-          <img class="vector-4" alt="Vector" src="img/vector.svg" />
-        </div>
-      </div>
+          <dl class="contact-info-dl">
+            <div class="contact-info">
+              <dt>Телефон</dt>
+              <dd>12345678</dd>
+            </div>
+            <div class="contact-info">
+              <dt>Email</dt>
+              <dd>mysuperemail@mail.ru</dd>
+            </div>
+          </dl>
+        </section>
+      </main>
     </div>
   </body>
-  </html>
-  
+</html>
