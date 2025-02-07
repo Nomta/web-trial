@@ -1,555 +1,230 @@
-.macbook-air {
-    background-color: #323231;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
+:root {
+  /* sizes */
+  --page-width: 1170px;
   
-  .macbook-air .div {
-    background-color: #323231;
-    border: 1px none;
-    height: 3554px;
-    overflow: hidden;
-    position: relative;
-    width: 1280px;
-  }
-  
-  .macbook-air .navbar {
-    align-items: flex-start;
-    display: inline-flex;
-    gap: 54px;
-    left: 320px;
-    position: absolute;
-    top: 75px;
-  }
-  
-  .macbook-air .frame {
-    align-items: flex-start;
-    display: inline-flex;
-    flex: 0 0 auto;
-    gap: 10px;
-    margin-bottom: -2px;
-    margin-left: -2px;
-    margin-top: -2px;
-    padding: 0px 0px 4px;
-    position: relative;
-  }
-  
-  .macbook-air .text-wrapper {
-    color: #c0ff70;
-    font-family: var(--header-font-family);
-    font-size: var(--header-font-size);
-    font-style: var(--header-font-style);
-    font-weight: var(--header-font-weight);
-    letter-spacing: var(--header-letter-spacing);
-    line-height: var(--header-line-height);
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-  }
-  
-  .macbook-air .text-wrapper-2 {
-    color: #c0ff70;
-    font-family: var(--header-font-family);
-    font-size: var(--header-font-size);
-    font-style: var(--header-font-style);
-    font-weight: var(--header-font-weight);
-    letter-spacing: var(--header-letter-spacing);
-    line-height: var(--header-line-height);
-    margin-top: -1px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-  }
-  
-  .macbook-air .h-1 {
-    color: #ffffff;
-    font-family: "Neue Metana Next Free Personal-SemiBold", Helvetica;
-    font-size: 72px;
-    font-weight: 600;
-    left: 204px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 207px;
-    white-space: nowrap;
-  }
-  
-  .macbook-air .frame-2 {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    left: 47px;
-    position: absolute;
-    top: 360px;
-    width: 1322px;
-  }
-  
-  .macbook-air .p {
-    color: #c0ff71;
-    font-family: "GT Pressura Pro Trial-Light", Helvetica;
-    font-size: 32px;
-    font-weight: 300;
-    letter-spacing: 0;
-    line-height: 32px;
-    position: relative;
-    width: 326px;
-  }
-  
-  .macbook-air .rectangle {
-    height: 200px;
-    object-fit: cover;
-    position: relative;
-    width: 200px;
-  }
-  
-  .macbook-air .frame-3 {
-    align-items: flex-end;
-    display: inline-flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    gap: 18px;
-    position: relative;
-  }
-  
-  .macbook-air .div-wrapper {
-    align-items: center;
-    border: 1px solid;
-    border-color: #e88ed9;
-    border-radius: 57px;
-    display: inline-flex;
-    flex: 0 0 auto;
-    gap: 10px;
-    justify-content: center;
-    padding: 8px 36px;
-    position: relative;
-  }
-  
-  .macbook-air .text-wrapper-3 {
-    color: #c0ff71;
-    font-family: "GT Pressura Pro Trial-Light", Helvetica;
-    font-size: 32px;
-    font-weight: 300;
-    letter-spacing: 0.64px;
-    line-height: 32px;
-    margin-top: -1px;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .macbook-air .frame-4 {
-    align-items: flex-start;
-    display: inline-flex;
-    flex: 0 0 auto;
-    gap: 20px;
-    position: relative;
-  }
-  
-  .macbook-air .frame-5 {
-    align-items: flex-start;
-    display: inline-flex;
-    flex-direction: column;
-    gap: 13px;
-    left: 0;
-    position: absolute;
-    top: 677px;
-  }
-  
-  .macbook-air .line {
-    height: 1px;
-    margin-top: -1px;
-    object-fit: cover;
-    position: relative;
-    width: 1280px;
-  }
-  
-  .macbook-air .img {
-    height: 1px;
-    object-fit: cover;
-    position: relative;
-    width: 1280px;
-  }
-  
-  .macbook-air .frame-6 {
-    align-items: flex-start;
-    display: inline-flex;
-    flex-direction: column;
-    gap: 13px;
-    left: 0;
-    position: absolute;
-    top: 1370px;
-  }
-  
-  .macbook-air .frame-7 {
-    align-items: flex-start;
-    display: inline-flex;
-    flex-direction: column;
-    gap: 13px;
-    left: 0;
-    position: absolute;
-    top: 2696px;
-  }
-  
-  .macbook-air .frame-8 {
-    align-items: flex-start;
-    display: inline-flex;
-    flex-direction: column;
-    gap: 13px;
-    left: 0;
-    position: absolute;
-    top: 3222px;
-  }
-  
-  .macbook-air .frame-9 {
-    align-items: flex-start;
-    display: inline-flex;
-    flex-direction: column;
-    gap: 14px;
-    left: 47px;
-    position: absolute;
-    top: 764px;
-  }
-  
-  .macbook-air .text-wrapper-4 {
-    color: #ffffff;
-    font-family: "Neue Metana Next Free Personal-SemiBold", Helvetica;
-    font-size: 40px;
-    font-weight: 600;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-  }
-  
-  .macbook-air .line-2 {
-    height: 1px;
-    object-fit: cover;
-    position: relative;
-    width: 1186px;
-  }
-  
-  .macbook-air .frame-10 {
-    align-items: flex-start;
-    display: inline-flex;
-    flex-direction: column;
-    gap: 14px;
-    left: 65px;
-    position: absolute;
-    top: 2783px;
-  }
-  
-  .macbook-air .frame-11 {
-    align-items: flex-start;
-    display: inline-flex;
-    flex-direction: column;
-    gap: 14px;
-    left: 65px;
-    position: absolute;
-    top: 3309px;
-  }
-  
-  .macbook-air .frame-12 {
-    align-items: flex-start;
-    display: inline-flex;
-    flex-direction: column;
-    gap: 35px;
-    left: 47px;
-    position: absolute;
-    top: 1496px;
-  }
-  
-  .macbook-air .frame-13 {
-    align-items: flex-start;
-    display: inline-flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    gap: 14px;
-    position: relative;
-  }
-  
-  .macbook-air .frame-14 {
-    align-items: flex-start;
-    display: inline-flex;
-    flex: 0 0 auto;
-    gap: 161px;
-    position: relative;
-  }
-  
-  .macbook-air .frame-15 {
-    align-items: flex-start;
-    display: inline-flex;
-    flex: 0 0 auto;
-    gap: 120px;
-    position: relative;
-  }
-  
-  .macbook-air .image {
-    height: 285px;
-    object-fit: cover;
-    position: relative;
-    width: 380px;
-  }
-  
-  .macbook-air .frame-16 {
-    align-items: flex-start;
-    display: inline-flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    height: 281px;
-    justify-content: space-between;
-    position: relative;
-  }
-  
-  .macbook-air .frame-17 {
-    align-items: flex-start;
-    display: inline-flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    gap: 24px;
-    position: relative;
-  }
-  
-  .macbook-air .text-wrapper-5 {
-    color: #ffffff;
-    font-family: "Neue Metana Next Free Personal-SemiBold", Helvetica;
-    font-size: 24px;
-    font-weight: 600;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-  }
-  
-  .macbook-air .frame-18 {
-    align-items: center;
-    border: 1px solid;
-    border-color: #e88ed9;
-    border-radius: 100px;
-    display: inline-flex;
-    flex: 0 0 auto;
-    gap: 10px;
-    justify-content: center;
-    padding: 10px 49px;
-    position: relative;
-  }
-  
-  .macbook-air .text-wrapper-6 {
-    color: #ffffff;
-    font-family: var(--header-font-family);
-    font-size: var(--header-font-size);
-    font-style: var(--header-font-style);
-    font-weight: var(--header-font-weight);
-    letter-spacing: var(--header-letter-spacing);
-    line-height: var(--header-line-height);
-    margin-top: -1px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-  }
-  
-  .macbook-air .frame-19 {
-    align-items: flex-start;
-    display: flex;
-    flex: 0 0 auto;
-    justify-content: space-between;
-    position: relative;
-    width: 1186px;
-  }
-  
-  .macbook-air .frame-20 {
-    align-items: flex-start;
-    display: flex;
-    justify-content: space-between;
-    left: 65px;
-    position: absolute;
-    top: 2914px;
-    width: 1186px;
-  }
-  
-  .macbook-air .p-wrapper {
-    align-items: center;
-    border: 1px solid;
-    border-color: #e88ed9;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    padding: 20px;
-    position: relative;
-    width: 552px;
-  }
-  
-  .macbook-air .text-wrapper-7 {
-    color: #ffffff;
-    flex: 1;
-    font-family: "GT Pressura Pro Trial-Light", Helvetica;
-    font-size: 20px;
-    font-weight: 300;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1px;
-    position: relative;
-  }
-  
-  .macbook-air .frame-21 {
-    align-items: center;
-    border: 1px solid;
-    border-color: #e88ed9;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    left: 399px;
-    padding: 20px;
-    position: absolute;
-    top: 3047px;
-    width: 482px;
-  }
-  
-  .macbook-air .text-wrapper-8 {
-    color: #ffffff;
-    flex: 1;
-    font-family: "GT Pressura Pro Trial-Light", Helvetica;
-    font-size: 20px;
-    font-weight: 300;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1px;
-    position: relative;
-    white-space: nowrap;
-  }
-  
-  .macbook-air .frame-22 {
-    align-items: flex-start;
-    display: flex;
-    justify-content: space-between;
-    left: 65px;
-    position: absolute;
-    top: 3415px;
-    width: 1186px;
-  }
-  
-  .macbook-air .frame-23 {
-    align-items: flex-end;
-    display: inline-flex;
-    flex: 0 0 auto;
-    gap: 24px;
-    position: relative;
-  }
-  
-  .macbook-air .text-wrapper-9 {
-    color: #ffffff;
-    font-family: "GT Pressura Pro Trial-Bold", Helvetica;
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-  }
-  
-  .macbook-air .text-wrapper-10 {
-    color: #ffffff;
-    font-family: var(--header-font-family);
-    font-size: var(--header-font-size);
-    font-style: var(--header-font-style);
-    font-weight: var(--header-font-weight);
-    letter-spacing: var(--header-letter-spacing);
-    line-height: var(--header-line-height);
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-  }
-  
-  .macbook-air .overlap-group {
-    height: 346px;
-    left: 47px;
-    position: absolute;
-    top: 903px;
-    width: 1233px;
-  }
-  
-  .macbook-air .frame-24 {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    left: 0;
-    position: absolute;
-    top: 11px;
-    width: 700px;
-  }
-  
-  .macbook-air .text-wrapper-11 {
-    color: #ffffff;
-    font-family: "GT Pressura Pro Trial-Light", Helvetica;
-    font-size: 20px;
-    font-weight: 300;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-  }
-  
-  .macbook-air .text-wrapper-12 {
-    color: #ffffff;
-    font-family: "GT Pressura Pro Trial-Light", Helvetica;
-    font-size: 20px;
-    font-weight: 300;
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-  }
-  
-  .macbook-air .genshin-impact {
-    color: #ffffff;
-    font-family: "GT Pressura Pro Trial-Light", Helvetica;
-    font-size: 20px;
-    font-weight: 300;
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-    width: 700px;
-  }
-  
-  .macbook-air .vector {
-    height: 305px;
-    left: 700px;
-    position: absolute;
-    top: 28px;
-    width: 534px;
-  }
-  
-  .macbook-air .vector-2 {
-    height: 305px;
-    left: 700px;
-    position: absolute;
-    top: 0;
-    width: 534px;
-  }
-  
-  .macbook-air .vector-3 {
-    height: 250px;
-    left: 673px;
-    position: absolute;
-    top: 68px;
-    width: 560px;
-  }
-  
-  .macbook-air .vector-4 {
-    height: 250px;
-    left: 680px;
-    position: absolute;
-    top: 96px;
-    width: 553px;
-  }
-  
+  /* fonts */
+  --base-font-family: "GT Pressura Pro Trial-Light", Helvetica, sans-serif;
+  --footnote-font-family: "Times New Roman", Times, serif;
+
+  /* colors */
+  --primary-color: #c0ff71;
+  --secondary-color: #e88ed9;
+  --foreground-color: #ffffff;
+  --background-color: #323231;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--base-font-family);
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+.root {
+  color: var(--foreground-color);
+  background-color: var(--background-color);
+}
+
+.h1 {
+  font-size: 72px;
+  margin: 48px 0;
+  padding-right: 80px;
+  text-align: center;
+}
+
+.h2 {
+  font-size: 40px;
+  margin-bottom: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid;
+  border-bottom-color: var(--primary-color);
+}
+
+.h3 {
+  font-size: 24px;
+}
+
+.header, 
+.main {
+  width: var(--page-width);
+  max-width: 98%;
+  margin: auto;
+}
+
+.header {
+  margin-bottom: 150px;
+  padding-bottom: 110px;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 13px;
+  margin-top: 110px;
+  border-top: 1.5px solid var(--secondary-color);
+  border-bottom: 1.5px solid var(--secondary-color);
+} 
+
+.navbar {
+  padding: 50px 80px 60px 0;
+  color: var(--primary-color);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 54px;
+}
+
+.navbar a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 32px;
+  line-height: 1;
+  color:var(--primary-color);
+}
+
+.intro-p {
+  width: 326px;
+  margin: 32px 0;
+  flex: none;
+}
+
+.photo {
+  border-radius: 8px;
+}
+
+.services {
+  width: 424px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 18px 20px;
+}
+
+.services span {
+  border: 1px solid;
+  border-color: var(--secondary-color);
+  border-radius: 57px;
+  padding: 7px 36px 8px;
+  letter-spacing: 0.64px;
+}
+
+.about-content {
+  margin-top: 36px;
+  padding-bottom: 150px;
+  width: 100vw;
+  background: 
+      url('img/vector-1.svg') no-repeat top 80px left 673px,
+      url('img/vector-2.svg') no-repeat top 10px left 700px,
+      url('img/vector-1.svg') no-repeat top 108px left 680px,
+      url('img/vector-2.svg') no-repeat top 38px left 700px;
+}
+
+.about-p {
+  width: 700px;
+  font-size: 20px;
+  margin-bottom: 16px;
+  padding: 20px 0;
+}
+
+.project-section {
+  margin-bottom: 150px;
+}
+
+.project {
+  display: flex;
+  gap: 120px;
+  padding: 36px 0;
+  border-bottom: 1px solid;
+  border-bottom-color: var(--primary-color);
+}
+
+.project:last-of-type {
+  border-bottom: none;
+}
+
+.project-image {
+  height: 285px;
+  width: 380px;
+  border-radius: 8px;
+}
+
+.project-info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 18px;
+}
+
+.project-info p {
+  flex-grow: 1;
+}
+
+.view-link {
+  padding: 9px 49px 10px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid;
+  border-color: var(--secondary-color);
+  border-radius: 57px;
+  color: white;
+}
+
+.info-section {
+  margin-bottom: 180px;
+}
+
+.info-content {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.info-p {
+  height: 60px;
+  padding: 20px;
+  border-left: 4px solid;
+  border-left-color: var(--secondary-color);
+  background-color: #c0ff7108;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.contact-info-dl {
+  padding: 24px 0 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info {
+  display: flex;
+  align-items: baseline;
+  gap: 24px;
+}
+
+.contact-info dt {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.contact-info dd {
+  font-family: var(--footnote-font-family);
+}
