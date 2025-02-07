@@ -7,10 +7,10 @@
   --footnote-font-family: "Times New Roman", Times, serif;
 
   /* colors */
-  --primary-color: #c0ff71;
-  --secondary-color: #e88ed9;
   --foreground-color: #ffffff;
   --background-color: #323231;
+  --primary-color: #c0ff71;
+  --secondary-color: #e88ed9;
   --info-color: #c0ff7108;
 }
 
