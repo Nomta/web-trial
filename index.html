@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
+    <div class="root">
 
       <header class="header">
         <nav class="navbar">
@@ -19,17 +19,15 @@
             <li>Контакты</li>
           </ul>
         </nav>
-      </header>
-  
-      <main class="main" id="home">
+
         <h1 class="h-1">Веб-программист</h1>
-        <section class="home">
-          <p class="intro">
+
+        <section class="intro">
+          <p class="intro-p">
             Привет, меня зовут Диана, я создаю сайты в онлайн школе 
-            <a href="http://www.progkids.com" style="color: #e88ed9;">ProgKids</a>
+            <a href="http://www.progkids.com">ProgKids</a>
           </p>
           <img src="img/photo.png" alt="Фото" class="photo">
-  
           <div class="services">
             <span>интернет-магазины</span>
             <span>сайты</span>
@@ -38,20 +36,16 @@
             <span>лендинги</span>
           </div>
         </section>
+      </header>
   
-        <section class="decoration" aria-hidden="true">
-          <img src="img/line-5.svg" alt="Линия" class="line line-1">
-          <img src="img/line-5.svg" alt="Линия" class="line line-2">
-          <img src="img/line-5.svg" alt="Линия" class="line line-3">
-          <img src="img/line-5.svg" alt="Линия" class="line line-4">
-        </section>
+      <hr class="header-line">
+      <hr class="header-line">
+  
+      <main class="main">
   
         <section id="about">
           <h2 class="h-2">Обо мне</h2>
-          <div class="decor-lines">
-            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-1">
-            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-2">
-          </div>
+          <hr class="decor-line">
           <div class="overlap-group">
             <div class="about-content">
               <p class="about-p">Мне 16 лет, живу в Москве</p>
@@ -70,10 +64,7 @@
   
         <section id="portfolio" class="portfolio">
           <h2 class="h-2">Портфолио</h2>
-          <div class="decor-lines">
-            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-1">
-            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-2">
-          </div>
+          <hr class="decor-line">
           <article class="project">
             <img src="img/project2.png" alt="Проект Edumem" class="project-image">
             <div class="project-info">
@@ -82,10 +73,7 @@
               <a href="#view" class="project-link view-link">Смотреть</a>
             </div>
           </article>
-          <div class="decor-lines">
-            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-1">
-            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-2">
-          </div>
+          <hr class="decor-line">
           <article class="project">
             <img src="img/project1.png" alt="Проект Edumem" class="project-image">
             <div class="project-info">
@@ -94,10 +82,7 @@
               <a href="#view" class="project-link view-link">Смотреть</a>
             </div>
           </article>
-          <div class="decor-lines">
-            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-1">
-            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-2">
-          </div>
+          <hr class="decor-line">
           <article class="project">
             <img src="img/project3.png" alt="Проект Edumem" class="project-image">
             <div class="project-info">
@@ -110,10 +95,7 @@
   
         <section id="info">
           <h2 class="h-2">Информация</h2>
-          <div class="decor-lines">
-            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-1">
-            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-2">
-          </div>
+          <hr class="decor-line">
           <div class="info-content">
             <div class="info-p">
               Создаю сайты на различных конструкторах: Tilda, Webflow, ReadyMag
@@ -124,14 +106,12 @@
             <div class="info-p">
               Также могу создавать сайты на HTML, CSS, React
             </div>
+          </div> 
         </section>
   
         <section id="contact">
           <h2 class="h-2">Контакты</h2>
-          <div class="decor-lines">
-            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-1">
-            <img src="img/line-9.svg" alt="Декоративная линия" class="decor-line decor-line-2">
-          </div>
+          <hr class="decor-line">
           <dl class="contact-info-dl">
             <div class="contact-info">
               <dt>Телефон</dt>
