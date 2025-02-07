@@ -105,6 +105,10 @@ body {
   flex: none;
 }
 
+.intro-p a {
+  color: #e88ed9;
+}
+
 .photo {
   border-radius: 8px;
 }
