@@ -11,6 +11,7 @@
   --secondary-color: #e88ed9;
   --foreground-color: #ffffff;
   --background-color: #323231;
+  --info-color: #c0ff7108;
 }
 
 * {
@@ -22,7 +23,6 @@
 body {
   font-family: var(--base-font-family);
   overflow-x: hidden;
-  width: 100vw;
 }
 
 .root {
@@ -32,7 +32,7 @@ body {
 
 .h1 {
   font-size: 72px;
-  margin: 48px 0;
+  margin: 56px 0;
   padding-right: 80px;
   text-align: center;
 }
@@ -59,7 +59,7 @@ body {
 
 .header {
   margin-bottom: 150px;
-  padding-bottom: 110px;
+  padding-bottom: 100px;
 }
 
 .header::after {
@@ -68,7 +68,7 @@ body {
   left: 0;
   right: 0;
   height: 13px;
-  margin-top: 110px;
+  margin-top: 100px;
   border-top: 1.5px solid var(--secondary-color);
   border-bottom: 1.5px solid var(--secondary-color);
 } 
@@ -106,7 +106,7 @@ body {
 }
 
 .intro-p a {
-  color: #e88ed9;
+  color: var(--secondary-color);
 }
 
 .photo {
@@ -207,7 +207,7 @@ body {
   padding: 20px;
   border-left: 4px solid;
   border-left-color: var(--secondary-color);
-  background-color: #c0ff7108;
+  background-color: var(--info-color);
   font-size: 20px;
   letter-spacing: 0;
 }
