@@ -20,14 +20,10 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: var(--base-font-family);
-  overflow-x: hidden;
-}
-
 .root {
   color: var(--foreground-color);
   background-color: var(--background-color);
+  font-family: var(--base-font-family);
 }
 
 .h1 {
@@ -50,8 +46,7 @@ body {
   font-size: 24px;
 }
 
-.header, 
-.main {
+.container {
   width: var(--page-width);
   max-width: 98%;
   margin: auto;
@@ -129,15 +124,17 @@ body {
   letter-spacing: 0.64px;
 }
 
+.about-section {
+  background: 
+      url('img/vector-1.svg') no-repeat top 191px left 720px,
+      url('img/vector-2.svg') no-repeat top 121px left 747px,
+      url('img/vector-1.svg') no-repeat top 219px left 727px,
+      url('img/vector-2.svg') no-repeat top 149px left 747px;
+}
+
 .about-content {
   margin-top: 36px;
   padding-bottom: 150px;
-  width: 100vw;
-  background: 
-      url('img/vector-1.svg') no-repeat top 80px left 673px,
-      url('img/vector-2.svg') no-repeat top 10px left 700px,
-      url('img/vector-1.svg') no-repeat top 108px left 680px,
-      url('img/vector-2.svg') no-repeat top 38px left 700px;
 }
 
 .about-p {
